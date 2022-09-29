@@ -1,0 +1,141 @@
+
+* {
+    font-family: 'Acme';
+}
+
+body {
+    background-color: #DBDBD9;
+    margin: 0 auto;
+    color: #741d48;
+}
+
+header{
+    background: url(../images/KAF-section.jpg.png) 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: px;
+    background-repeat: repeat-x;
+}
+
+h1.titre {
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+h3.slogan {
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* destinations */
+
+section#destinations h3 {
+    padding-top: 20px;
+    opacity: 0.7;
+    margin: 0px 20% 0 20%;
+}
+
+div.destination-item {
+    color:#373737;
+    width: 200px;
+    height: 250px;
+    margin: 15px;
+    position: relative;
+    flex: 1 0 29%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div.destination-item:hover{
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0.19);
+    transition: 0.3s all;
+}
+
+div.destinations-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 20% 0px 20%;
+}
+
+.Chaussure { background: url(../images/Chaussure.jpg); }
+.Chaussures-coloré { background: url(../images/Chaussures.jpg); }
+.Salon-vitrine { background: url(../images/Salon.jpg); }
+.short1 { background: url(../images/short1.jpg); }
+.short2 { background: url(../images/short2.jpg); }
+.short3 { background: url(../images/noire.jpg); }
+.chaus7 { background: url(../images/chaus7.jpg); }
+.chaus8 { background: url(../images/chaus8.jpg); }
+.chaus4 { background: url(../images/chaus4.jpg); }
+.short4 { background: url(../images/short4.jpg); }
+.short10 { background: url(../images/short10.jpg); }
+.pantalon2 { background: url(../images/pantalon2.jpg); }
+.chaus { background: url(../images/chaus.jpg); }
+.chaus2 { background: url(../images/chaus2.jpg); }
+.chaus3 { background: url(../images/chaus3.jpg); }
+.chaus5 { background: url(../images/chaus5.jpg); }
+.chaus6 { background: url(../images/chaus6.jpg); }
+.chaus9 { background: url(../images/chaus9.jpg); }
+.prada { background: url(../images/Prada.jpg); }
+.tech8 { background: url(../images/tech8.jpg); }
+.tech7 { background: url(../images/tech7.jpg); }
+.tech6 { background: url(../images/tech6.jpg); }
+.tech5 { background: url(../images/tech5.jpg); }
+.tech4 { background: url(../images/tech4.jpg); }
+.tech3 { background: url(../images/tech3.jpg); }
+.tech2 { background: url(../images/tech2.jpg); }
+.tech1 { background: url(../images/tech1.jpg); }
+
+.overlay {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+span.nom {
+     position: relative;
+     color: #373737;
+     background-color: #DBDBD9;
+     top: 20px;
+     float: right;
+     padding: 12px;
+     font-size: 22px;
+}
+
+span.prix {
+     position: relative;
+     color: #FFFF;
+     background-color: #EF8F1D;
+     padding: 12px;
+     font-size: 25px;
+     top: 220px;
+}
+
+/* Formule de recherche */
+
+header form{ 
+    background-color: #EF8F1D;
+    padding: 20px;
+}
+
+.form-group label {
+    color: #fff;
+}
+
+.form-group label{
+    margin: 12px;
+}
+
+/* Pied de page */
+
+footer p {
+    text-align: center;
+    color: #373737;
+}
